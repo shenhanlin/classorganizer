@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">classOrganizer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_class_list">classList</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_class_details">ClassDetails</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_start_image">Class Organizer</string>
+</resources>

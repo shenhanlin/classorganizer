@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.hanlinshen.classorganizer.UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+
+        <ImageView
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="20dp"
+            android:id="@+id/imageViewForUserProfile"
+            android:onClick="useCamera"
+            android:src="@drawable/dog"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/userNameLabe"
+            android:text="Name:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameText"
+            android:layout_toRightOf="@id/userNameLabe"
+            android:layout_alignBaseline="@id/userNameLabe"
+            android:paddingLeft="30dp"
+            android:onClick="changeNameOrSchool"
+            android:text="Class One"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userNameLabe"
+            android:id="@+id/userSchoolLabe"
+            android:text="School:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userSchoolText"
+            android:layout_toRightOf="@id/userSchoolLabe"
+            android:layout_alignBaseline="@id/userSchoolLabe"
+            android:paddingLeft="20dp"
+            android:onClick="changeNameOrSchool"
+            android:text="A"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

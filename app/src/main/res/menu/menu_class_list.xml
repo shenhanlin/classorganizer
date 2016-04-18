@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_addClass"
+        android:icon ="@drawable/ic_input_add"
+        android:title="add new class"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_goBack"
+        android:icon ="@drawable/ic_menu_back"
+        android:title="add new class"
+        app:showAsAction="ifRoom"
+        />
+</menu>

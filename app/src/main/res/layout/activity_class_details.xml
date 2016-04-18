@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.hanlinshen.classorganizer.ClassDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/classNameLabe"
+            android:text="Class Name:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classNameText"
+            android:layout_toRightOf="@id/classNameLabe"
+            android:layout_alignBaseline="@id/classNameLabe"
+            android:paddingLeft="30dp"
+            android:text="Class One"
+            android:textSize="20sp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classNameLabe"
+            android:id="@+id/classGroupLabe"
+            android:text="Class Group:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classGroupText"
+            android:layout_toRightOf="@id/classGroupLabe"
+            android:layout_alignBaseline="@id/classGroupLabe"
+            android:paddingLeft="30dp"
+            android:text="A B"
+            android:textSize="20sp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classGroupLabe"
+            android:id="@+id/classCreditLabe"
+            android:text="Class Credit:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classCreditText"
+            android:paddingLeft="30dp"
+            android:layout_toRightOf="@id/classCreditLabe"
+            android:layout_alignBaseline="@id/classCreditLabe"
+            android:text="3"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classCreditLabe"
+            android:id="@+id/classBookLabe"
+            android:text="Book Used:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/classBookText"
+            android:paddingLeft="43dp"
+            android:layout_toRightOf="@id/classBookLabe"
+            android:layout_alignBaseline="@id/classBookLabe"
+            android:text="Book for DSAD"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/classBookLabe"
+            android:id="@+id/classStatusLabe"
+            android:text="Class Status:"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/classStatusText"
+            android:paddingLeft="26dp"
+            android:layout_toRightOf="@id/classStatusLabe"
+            android:layout_alignBaseline="@id/classStatusLabe"
+            android:onClick="changeClassStatus"
+            android:text="Unkonw"
+            android:textSize="20sp"/>
+
+
+
+    </RelativeLayout>
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.5"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+
+
+    <ImageView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingBottom="20dp"
+        android:id="@+id/imageViewForBook"
+        android:src="@drawable/book_2"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
